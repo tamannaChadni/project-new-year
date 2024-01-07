@@ -3,131 +3,168 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
-    font-family: "Merriweather", serif;
-    font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    max-width: 80%;
-    margin: 0 auto;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .banner {
-    text-align: center;
-    background-image: url("/assets/img/Banner-Image.png"),
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    border-radius: 10px;
-    padding: 100px 0;
+  text-align: center;
+  background-image: url("/assets/img/Banner-Image.png"),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  border-radius: 10px;
+  padding: 100px 0;
 }
 
 .banner-text h5 {
-    color: #fff;
-    text-align: center;
-    font-family: "Merriweather";
-    font-size: 32px;
-    font-weight: 400;
-    /* padding-top: 120px; */
-    /* padding-bottom: 10px; */
-    margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 32px;
+  font-weight: 400;
+  /* padding-top: 120px; */
+  /* padding-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .banner-text h1 {
-    color: #fff;
-    width: 632px;
-    text-align: center;
-    font-family: "Merriweather";
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
-    margin: 5px auto;
-    padding-top: 10px;
+  color: #fff;
+  width: 632px;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  margin: 5px auto;
+  padding-top: 10px;
 }
 
 .off-text h2 {
-    color: #f00;
-    text-align: center;
-    font-family: "Inter";
-    font-size: 40px;
-    margin-bottom: 20px;
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .off-text p {
-    color: #f00;
-    text-align: center;
-    font-family: "Inter";
-    font-size: 12px;
-    margin-bottom: 0;
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 12px;
+  margin-bottom: 0;
 }
 
 .off-text h5 {
-    color: #070211;
-    text-align: center;
-    font-family: "Inter";
-    font-size: 24px;
-    margin-top: 3px;
-    margin-bottom: 20px;
+  color: #070211;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  margin-top: 3px;
+  margin-bottom: 20px;
 }
 
 .off-img img {
-    margin: 0 auto;
-    width: 400px;
-    display: block;
+  margin: 0 auto;
+  width: 400px;
+  display: block;
 }
 
 .off {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 .welcome {
-    text-align: center;
-    background-image: url("/assets/img/Vectorrr.png"),
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    border-radius: 10px;
-    padding: 100px 0;
+  text-align: center;
+  background-image: url("/assets/img/Vectorrr.png"),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  border-radius: 10px;
+  padding: 100px 0;
 }
 
 .welcome h1 {
-    color: #fff;
-    font-family: "Merriweather";
-    font-size: 64px;
-    font-style: normal;
-    text-align: left;
-    letter-spacing: 7.04px;
-    width: 642px;
-    padding-left: 50px;
-    /* padding-bottom: 0px; */
-    margin-bottom: 0;
+  color: #fff;
+  font-family: "Merriweather";
+  font-size: 64px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 7.04px;
+  width: 642px;
+  padding-left: 50px;
+  /* padding-bottom: 0px; */
+  margin-bottom: 0;
 }
 
 .welcome p {
-    color: rgba(255, 255, 255, 0.8);
-    text-align: left;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    width: 697px;
-    padding-top: 0px;
-    padding-left: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 697px;
+  padding-top: 0px;
+  padding-left: 50px;
 }
 
 .welcome h6 {
-    color: #fff;
-    text-decoration: none;
-    text-align: left;
-    font-family: "Inter";
-    font-size: 15px;
-    padding-left: 90px;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  font-family: "Inter";
+  font-size: 15px;
+  padding-left: 90px;
 }
-    
 
-
+.gift-text h6 {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.gift-text h2 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  padding-top: 0;
+}
+.gift-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 32px;
+}
+.gift-img {
+  display: flex;
+  gap: 2%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+}
+.gift-img div {
+  /* flex: 33.33%; */
+  flex: 1 1 32%;
+  margin-bottom: 10px;
+  /* max-width: 300px;
+  width: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.gift-img div img {
+  max-width: 100%;
+}
