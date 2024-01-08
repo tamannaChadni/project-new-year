@@ -168,3 +168,81 @@
 .gift-img div img {
   max-width: 100%;
 }
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.container .newsletter {
+  display: grid;
+  place-items: center;
+}
+.newsletter img {
+  margin-top: 20px;
+}
+.newsletter h1 {
+  text-align: center;
+}
+
+.newsletter-text p {
+  text-align: center;
+  width: 800px;
+}
+.newsletter-form {
+  display: flex;
+  padding-bottom: 20px;
+  
+}
+.newsletter-form input {
+  flex: 0 0 70%;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 50px 0px 0px 50px;
+}
+.subscribe {
+  align-items: center;
+  padding: 23px 45px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+}
+footer {
+  background: #070211;
+  padding: 100px 0;
+}
+.footer p {
+  color: #fff;
+
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.footer-reserve-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img img:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contact {
+  display: flex;
+  gap: 10px;
+}
+ 
