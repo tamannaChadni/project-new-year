@@ -17,7 +17,6 @@
   text-align: center;
 }
 
-
 .important {
   color: #f00;
 }
@@ -36,7 +35,7 @@
 /* banner */
 .banner {
   text-align: center;
-  background-image: url("/assets/img/Banner-Image.png"),
+  background-image: url("assets/img/Banner-Image.png"),
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -244,7 +243,6 @@
 }
 
 .newsletter-img img {
-  
   display: block;
   margin: 0 auto;
 }
@@ -253,7 +251,6 @@
   text-align: center;
   padding: 0 80px;
   /* width: 500px; */
-  
 }
 .newsletter-form {
   display: flex;
@@ -321,7 +318,3 @@ footer {
   gap: 10px;
 }
 /* footer end */
-
-
-
-
