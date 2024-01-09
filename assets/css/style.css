@@ -35,7 +35,7 @@
 /* banner */
 .banner {
   text-align: center;
-  background-image: url('/assets/img/banner.png'),
+  background-image: url('../img/banner.png'),
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@
 /* 2nd section */
 .welcome {
   text-align: center;
-  background-image: url("/assets/img/vic.png"),
+  background-image: url("../img/vic.png"),
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
@@ -318,3 +318,19 @@ footer {
   gap: 10px;
 }
 /* footer end */
+/* holiday sale */
+
+/* .holiday-sale-text{
+  padding: auto;
+}
+.sale-img{
+  background-image: url('/assets/img/Rectangle\ 2.png');
+  background-position: bottom;
+  background-repeat:  no-repeat;
+  
+}
+#box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
